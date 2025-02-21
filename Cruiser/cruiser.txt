@@ -893,7 +893,7 @@
         },
         "y": {
           "type": 3,
-          "value": 110.0
+          "value": 121.0
         },
         "checkY": {
           "type": 1,
@@ -905,7 +905,7 @@
         },
         "operator": {
           "type": 1,
-          "value": 0.0
+          "value": 2.0
         }
       },
       {
@@ -944,7 +944,7 @@
         },
         "y": {
           "type": 3,
-          "value": 110.0
+          "value": 121.0
         }
       },
       {
@@ -979,11 +979,11 @@
         },
         "variable": {
           "type": 8,
-          "value": "#tpOneDest"
+          "value": "dest1"
         },
         "y": {
           "type": 3,
-          "value": 121.0
+          "value": 132.0
         }
       },
       {
@@ -1273,7 +1273,7 @@
         },
         "y": {
           "type": 3,
-          "value": 143.0
+          "value": 154.0
         }
       },
       {
@@ -1291,13 +1291,13 @@
         },
         "y": {
           "type": 3,
-          "value": 143.0
+          "value": 154.0
         }
       },
       {
         "string": {
           "type": 8,
-          "value": "startStopping"
+          "value": "secondCheck"
         },
         "name": {
           "type": 8,
@@ -1309,7 +1309,7 @@
         },
         "y": {
           "type": 3,
-          "value": 132.0
+          "value": 143.0
         }
       },
       {
@@ -3269,6 +3269,404 @@
         "y": {
           "type": 3,
           "value": 77.0
+        }
+      },
+      {
+        "name": {
+          "type": 8,
+          "value": "condition_coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 32.0
+        },
+        "checkX": {
+          "type": 1,
+          "value": 1.0
+        },
+        "y": {
+          "type": 3,
+          "value": 141.0
+        },
+        "checkY": {
+          "type": 1,
+          "value": 1.0
+        },
+        "checkZ": {
+          "type": 1,
+          "value": 1.0
+        },
+        "operator": {
+          "type": 1,
+          "value": 1.0
+        }
+      },
+      {
+        "useVariable": {
+          "type": 1,
+          "value": 1.0
+        },
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Y": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Z": {
+              "type": 3,
+              "value": 0.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "$drone_pos"
+        },
+        "y": {
+          "type": 3,
+          "value": 141.0
+        }
+      },
+      {
+        "useVariable": {
+          "type": 1,
+          "value": 1.0
+        },
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Y": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Z": {
+              "type": 3,
+              "value": 0.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "dest2"
+        },
+        "y": {
+          "type": 3,
+          "value": 152.0
+        }
+      },
+      {
+        "string": {
+          "type": 8,
+          "value": "startStopping"
+        },
+        "name": {
+          "type": 8,
+          "value": "text"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "y": {
+          "type": 3,
+          "value": 163.0
+        }
+      },
+      {
+        "name": {
+          "type": 8,
+          "value": "jump"
+        },
+        "x": {
+          "type": 3,
+          "value": 32.0
+        },
+        "y": {
+          "type": 3,
+          "value": 174.0
+        }
+      },
+      {
+        "string": {
+          "type": 8,
+          "value": "movement"
+        },
+        "name": {
+          "type": 8,
+          "value": "text"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "y": {
+          "type": 3,
+          "value": 174.0
+        }
+      },
+      {
+        "name": {
+          "type": 8,
+          "value": "label"
+        },
+        "x": {
+          "type": 3,
+          "value": 32.0
+        },
+        "y": {
+          "type": 3,
+          "value": 119.0
+        }
+      },
+      {
+        "string": {
+          "type": 8,
+          "value": "secondCheck"
+        },
+        "name": {
+          "type": 8,
+          "value": "text"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "y": {
+          "type": 3,
+          "value": 119.0
+        }
+      },
+      {
+        "name": {
+          "type": 8,
+          "value": "coordinate_operator"
+        },
+        "x": {
+          "type": 3,
+          "value": 99.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "dest1"
+        },
+        "checkX": {
+          "type": 1,
+          "value": 1.0
+        },
+        "y": {
+          "type": 3,
+          "value": 110.0
+        },
+        "checkY": {
+          "type": 1,
+          "value": 1.0
+        },
+        "checkZ": {
+          "type": 1,
+          "value": 1.0
+        },
+        "operator": {
+          "type": 1,
+          "value": 0.0
+        }
+      },
+      {
+        "useVariable": {
+          "type": 1,
+          "value": 1.0
+        },
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Y": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Z": {
+              "type": 3,
+              "value": 0.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 114.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "#tpOneDest"
+        },
+        "y": {
+          "type": 3,
+          "value": 110.0
+        }
+      },
+      {
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": 2.0
+            },
+            "Y": {
+              "type": 3,
+              "value": 2.0
+            },
+            "Z": {
+              "type": 3,
+              "value": 2.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 129.0
+        },
+        "y": {
+          "type": 3,
+          "value": 110.0
+        }
+      },
+      {
+        "name": {
+          "type": 8,
+          "value": "coordinate_operator"
+        },
+        "x": {
+          "type": 3,
+          "value": 32.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "dest2"
+        },
+        "checkX": {
+          "type": 1,
+          "value": 1.0
+        },
+        "y": {
+          "type": 3,
+          "value": 130.0
+        },
+        "checkY": {
+          "type": 1,
+          "value": 1.0
+        },
+        "checkZ": {
+          "type": 1,
+          "value": 1.0
+        },
+        "operator": {
+          "type": 1,
+          "value": 0.0
+        }
+      },
+      {
+        "useVariable": {
+          "type": 1,
+          "value": 1.0
+        },
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Y": {
+              "type": 3,
+              "value": 0.0
+            },
+            "Z": {
+              "type": 3,
+              "value": 0.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 47.0
+        },
+        "variable": {
+          "type": 8,
+          "value": "#tpOneDest"
+        },
+        "y": {
+          "type": 3,
+          "value": 130.0
+        }
+      },
+      {
+        "coord": {
+          "type": 10,
+          "value": {
+            "X": {
+              "type": 3,
+              "value": -2.0
+            },
+            "Y": {
+              "type": 3,
+              "value": -2.0
+            },
+            "Z": {
+              "type": 3,
+              "value": -2.0
+            }
+          }
+        },
+        "name": {
+          "type": 8,
+          "value": "coordinate"
+        },
+        "x": {
+          "type": 3,
+          "value": 62.0
+        },
+        "y": {
+          "type": 3,
+          "value": 130.0
         }
       }
     ]
